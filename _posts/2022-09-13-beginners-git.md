@@ -9,7 +9,7 @@ image: /assets/images/git-github.png
 
 
 
-So, you're interested in learning git, but you don't know where to start? Here's some simple first steps!
+So, you're interested in learning git, but you don't know where to start? Here are some simple first steps!
 
 ### Step 1: 
 #### Install git on your local machine
