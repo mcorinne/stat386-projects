@@ -3,7 +3,7 @@ layout: post
 title:  "A Beginner's Guide to Python Dictionaries"
 date:   2022-09-28
 author: Corinne McClelland
-description: A step-by-step tutorial of python dictionaries
+description: A step-by-step tutorial to help you be able to create, delete, and add/remove values from a dictionary in Python
 image: /assets/images/dictionary.jpeg
 ---
 
