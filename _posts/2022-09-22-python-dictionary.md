@@ -1,14 +1,34 @@
 ---
 layout: post
 title:  "A Beginner's Guide to Python Dictionaries"
-date:   2022-09-21
+date:   2022-09-28
 author: Corinne McClelland
 description: A step-by-step tutorial of python dictionaries
 image: /assets/images/dictionary.jpeg
 ---
 
+So you're new to Python and just discovering dictionaries. You're not sure what they are, what they are used for, or (most importantly) how to create one. Don't worry! We're here to answer all your questions and give you a step-by-step guide along the way. Let's begin!
 
+## What is a Python dictionary?
 
+Before making your own dictionary, it's important to know what it actually is. A dictionary is a data structure that is essentially a collection of items. What is unique about a dictionary is that it stores your data in key-value pairs. This may seem confusing, but it can be a really helpful tool when looking at data. A key-value pair consists of two related data elements. The key is a constant that defines the data set, and the value is something that could belong to that data set. Examples of keys include color, occupation, gender, hometown, book, etc. The values would then be something like green, data scientist, non-binary, Seattle, Jane Eyre. You get the idea.
 
+Dictionaries are ordered and mutable, which means that the data can be changed. You can add and remove data from a dictionary after it's been created, but you can't have duplicates. Each key/value pair MUST be unique. This means you can't have two keys that are the same. If you try to do so, it will just overwrite the previous value stored in the key. However, if you need to store multiple values in a key, you can do that! Just make the value a list or another dictionary rather than a single value. 
+
+## How do I create a dictionary in Python?
+
+Creating a dictionary is actually relatively simple. You just put your data in curly braces {} and separate it with commas. The key-value pairs are inputted using the format (key: value). You can make an empty dictionary to fill with values later, or you can put values in your dictionary immediately. The example code below should make this more clear. 
+
+`# This is an empty dictionary`
+`empty_dict = {}`
+`print(empty_dict)`
+
+`# A dictionary that has integer keys`
+`my_dict = {'author': 'Charlotte Bronte', 'book': 'Jane Eyre'}`
+`print(my_dict)`
+
+`# A dictionary can also have mixed type keys`
+`example_dict = {'occupation': 'librarian', 1: [a, b, c]}`
+`print(example_dict)`
 
 
