@@ -34,4 +34,8 @@ Creating a dictionary is actually relatively simple. You just put your data in c
 
 `print(example_dict)`
 
+#### Output:
 
+{}
+{'author': 'Charlotte Bronte', 'book': 'Jane Eyre'}
+{'occupation': 'librarian', 1: [a, b, c]}
