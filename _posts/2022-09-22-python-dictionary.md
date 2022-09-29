@@ -19,17 +19,17 @@ Dictionaries are ordered and mutable, which means that the data can be changed. 
 
 Creating a dictionary is actually relatively simple. You just put your data in curly braces {} and separate it with commas. The key-value pairs are inputted using the format (key: value). You can make an empty dictionary to fill with values later, or you can put values in your dictionary immediately. The example code below should make this more clear. 
 
-### This is an empty dictionary
+#### An empty dictionary
 `empty_dict = {}`
 
 `print(empty_dict)`
 
-### A dictionary that has integer keys
+#### A dictionary with integer keys
 `my_dict = {'author': 'Charlotte Bronte', 'book': 'Jane Eyre'}`
 
 `print(my_dict)`
 
-### A dictionary can also have mixed type keys
+#### A dictionary with mixed type keys
 `example_dict = {'occupation': 'librarian', 1: [a, b, c]}`
 
 `print(example_dict)`
