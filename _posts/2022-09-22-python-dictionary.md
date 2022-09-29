@@ -48,3 +48,15 @@ Creating a dictionary is actually relatively simple. You just put your data in c
 This can be done in seveal different ways. The standard way to access items is by using brackets [], but Python also provides many differrent built-in methods for accessing items as well. We'll explore them all below!
 
 ### Bracket Notation
+
+This notation allows you to access a single item in the dictionary. For example if you have a dictionary that looks like:
+
+`best_song = {'red': 'all too well', '1989': 'wildest dreams', 'reputation': 'delicate', 'lover': 'afterglow', 'folklore': 'cardigan', 'evermore': 'no body no crime'}`
+
+You can now use the bracket notation to access a single item. For example,
+
+`print(best_song['reputation']`
+
+will return
+
+`delicate`
