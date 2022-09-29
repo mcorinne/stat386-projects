@@ -88,3 +88,13 @@ The values method is very similar to the keys method, printing all the values in
 This will print:
 
 `dict_values(['all too well', 'wildest dreams', 'delicate', 'afterglow', 'cardigan', 'no body no crime'])`
+
+### items() method
+
+You can access all items in your dictionary using the items method.
+
+`print(best_song.items())`
+
+This will print:
+
+`dict_items([('red', 'all too well'), ('1989', 'wildest dreams'), ('reputation', 'delicate'), ('lover', 'afterglow'), ('folklore', 'cardigan'), ('evermore', 'no body no crime')])`
