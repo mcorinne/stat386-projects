@@ -107,14 +107,17 @@ Because dictionaries are mutable, it is very easy to change or add values to you
 
 #### Changing Value
 
-`student_dict['Major']` = 'Data Science'
+`student_dict['Major'] = 'Data Science'`
+
 `print(student_dict)`
 
 #### Adding Value
 
 `student_dict['netid'] = 'lbrooks'`
+
 `print(student_dict)`
 
 ##### Output
 `{'Name': 'Lars Brooks', 'Major': 'Data Science', 'Age': 20}`
+
 `{'Name': 'Lars Brooks', 'Major': 'Data Science', 'Age': 20, 'netid': 'lbrooks'}`
