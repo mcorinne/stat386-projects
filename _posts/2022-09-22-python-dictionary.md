@@ -47,7 +47,7 @@ Creating a dictionary is actually relatively simple. You just put your data in c
 
 This can be done in seveal different ways. The standard way to access items is by using brackets [], but Python also provides many differrent built-in methods for accessing items as well. We'll explore them all below!
 
-### Bracket Notation
+### bracket notation
 
 This notation allows you to access a single item in the dictionary. For example if you have a dictionary that looks like:
 
@@ -55,8 +55,36 @@ This notation allows you to access a single item in the dictionary. For example 
 
 You can now use the bracket notation to access a single item. For example,
 
-`print(best_song['reputation']`
+`print(best_song['reputation'])`
 
-will return
+will give you the output:
 
 `delicate`
+
+### get() method
+
+Now, we're moving on to the provided Python methods for dictionaries. The get() method is very similar to the bracket notation. With get(), you access a single item in the dictionary.
+
+`print(best_song.get('reputation'))`
+
+`delicate`
+
+### keys() method
+
+The keys method allows you to check all available keys within a dictionary. 
+
+`print(best_song.keys())`
+
+This will print:
+
+`dict_keys(['red', '1989', 'reputation', 'lover', 'folklore', 'evermore'])`
+
+### values() method
+
+The values method is very similar to the keys method, printing all the values in the dictionary rather than the keys.
+
+`print(best_song.values())`
+
+This will print:
+
+`dict_values(['all too well', 'wildest dreams', 'delicate', 'afterglow', 'cardigan', 'no body no crime'])`
