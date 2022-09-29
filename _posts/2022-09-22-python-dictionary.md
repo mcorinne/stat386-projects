@@ -43,3 +43,8 @@ Creating a dictionary is actually relatively simple. You just put your data in c
 `{'occupation': 'librarian', 1: [a, b, c]}`
 
 
+## How do I access dictionary items?
+
+This can be done in seveal different ways. The standard way to access items is by using brackets [], but Python also provides many differrent built-in methods for accessing items as well. We'll explore them all below!
+
+### Bracket Notation
