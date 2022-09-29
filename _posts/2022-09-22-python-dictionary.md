@@ -121,3 +121,44 @@ Because dictionaries are mutable, it is very easy to change or add values to you
 `{'Name': 'Lars Brooks', 'Major': 'Data Science', 'Age': 20}`
 
 `{'Name': 'Lars Brooks', 'Major': 'Data Science', 'Age': 20, 'netid': 'lbrooks'}`
+
+## How do I remove values from my dictionary?
+
+To remove values from a Python dictionary, you can again use several different methods. We'll use the dictionary we created above for our examples.
+
+#### pop() method
+This method removes an item from your dictionary given the specified key name.
+
+`print(student_dict.pop('Age'))`
+
+`{'Name': 'Lars Brooks', 'Major': 'Data Science', 'netid': 'lbrooks'}`
+
+#### popitem() method
+This method removes the LAST inserted item on your dictionary.
+
+`print(student_dict.popitem())`
+
+`{'Name': 'Lars Brooks', 'Major': 'Data Science'}`
+
+#### del
+This method can either remove an item with a specified key name (like the pop() method), or it can delete the entire dictionary. Using the dictionary we created above again, we can say:
+
+`del student_dict['Age']`
+
+`print(student_dict)`
+
+`{'Name': 'Lars Brooks', 'Major': 'Data Science', 'netid': 'lbrooks'}`
+
+OR
+
+`del student_dict`
+
+If you try to print a dictionary after it is deleted, you will get an error message because the dictionary no longer exists.
+
+#### clear() method
+You can use this method to empty your dictionary without deleting it.
+
+`print(student_dict.clear())`
+
+`{}`
+
