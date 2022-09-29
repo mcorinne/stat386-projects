@@ -36,6 +36,10 @@ Creating a dictionary is actually relatively simple. You just put your data in c
 
 #### Output:
 
-{}
-{'author': 'Charlotte Bronte', 'book': 'Jane Eyre'}
-{'occupation': 'librarian', 1: [a, b, c]}
+`{}`
+
+`{'author': 'Charlotte Bronte', 'book': 'Jane Eyre'}`
+
+`{'occupation': 'librarian', 1: [a, b, c]}`
+
+
