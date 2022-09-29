@@ -167,6 +167,9 @@ You can use this method to empty your dictionary without deleting it.
 Dictionaries are an extremely useful tool when working with data. This post was not an exhaustive look at dictionaries. There are many more methods you can use with dictionaries to explore your data! As you become more familiar with dictionaries, explore these other methods! Below are a list of resources that can help you in your dictionary journey.
 
 [HubSpot on Python Dictionaries](https://blog.hubspot.com/website/python-dictionary)
-[https://learningactors.com/a-complete-guide-to-python-dictionaries-for-beginners/]
-[https://realpython.com/python-dicts/]
-[https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/key-value-pairs-explained.html?lang=en]
+
+[Learning Actors on Python Dictionaries](https://learningactors.com/a-complete-guide-to-python-dictionaries-for-beginners/)
+
+[Real Python on Python Dictionaries](https://realpython.com/python-dicts/)
+
+[Key-Value Pairs Explained](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/key-value-pairs-explained.html?lang=en)
