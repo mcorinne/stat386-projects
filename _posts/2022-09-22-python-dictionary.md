@@ -105,13 +105,13 @@ Because dictionaries are mutable, it is very easy to change or add values to you
 
 `student_dict = {'Name': 'Lars Brooks', 'Major': 'English', 'Age': 20}`
 
-#### Changing Value
+#### changing value
 
 `student_dict['Major'] = 'Data Science'`
 
 `print(student_dict)`
 
-#### Adding Value
+#### adding value
 
 `student_dict['netid'] = 'lbrooks'`
 
@@ -162,3 +162,11 @@ You can use this method to empty your dictionary without deleting it.
 
 `{}`
 
+## Conclusion
+
+Dictionaries are an extremely useful tool when working with data. This post was not an exhaustive look at dictionaries. There are many more methods you can use with dictionaries to explore your data! As you become more familiar with dictionaries, explore these other methods! Below are a list of resources that can help you in your dictionary journey.
+
+[https://blog.hubspot.com/website/python-dictionary]
+[https://learningactors.com/a-complete-guide-to-python-dictionaries-for-beginners/]
+[https://realpython.com/python-dicts/]
+[https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/key-value-pairs-explained.html?lang=en]
