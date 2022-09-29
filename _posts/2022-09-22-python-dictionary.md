@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Beginning Data Scientist's Guide to Using Dictionaries in Python"
+title:  "A Beginner's Guide to Python Dictionaries"
 date:   2022-09-21
 author: Corinne McClelland
 description: A step-by-step tutorial of python dictionaries
