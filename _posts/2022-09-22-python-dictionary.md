@@ -98,3 +98,23 @@ You can access all items in your dictionary using the items method.
 This will print:
 
 `dict_items([('red', 'all too well'), ('1989', 'wildest dreams'), ('reputation', 'delicate'), ('lover', 'afterglow'), ('folklore', 'cardigan'), ('evermore', 'no body no crime')])`
+
+## How do I change/add values to my dictionary?
+
+Because dictionaries are mutable, it is very easy to change or add values to your dictionary. In order to change/add values in dictionaries, you simply use an assignment operator ("="). If you use the operator and the key you are assigning the value to is already present in the dictionary, it will change the value. If it is not present, it will add that key-value pair to the dictionary.
+
+`student_dict = {'Name': 'Lars Brooks', 'Major': 'English', 'Age': 20}`
+
+#### Changing Value
+
+`student_dict['Major']` = 'Data Science'
+`print(student_dict)`
+
+#### Adding Value
+
+`student_dict['netid'] = 'lbrooks'`
+`print(student_dict)`
+
+##### Output
+`{'Name': 'Lars Brooks', 'Major': 'Data Science', 'Age': 20}`
+`{'Name': 'Lars Brooks', 'Major': 'Data Science', 'Age': 20, 'netid': 'lbrooks'}`
