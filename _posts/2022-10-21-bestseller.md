@@ -13,4 +13,4 @@ Working at a bookstore, it's important to know which books are going to sell. Th
 # Step 1: Get Your API Key
 In order to get your NYT API key, you'll need to start a developer's account (good news, it's free!). You can do that now by following [this link](https://developer.nytimes.com/accounts/create). All you'll need is your first and last name, email, and a password that you create.
 
-![Test Image](assets/images/Developer.png)
+![Test Image](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/Developer.png)
