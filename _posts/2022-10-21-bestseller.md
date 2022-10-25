@@ -25,8 +25,15 @@ Now, follow these steps:
 On their website, the New York Times has a nice overview of the Books API that you can find [here](https://developer.nytimes.com/docs/books-product/1/overview). Basically, there are two main kind of lists that the Books API provides: rankings according to how many books have been sold or a list of book reviews. We'll be focusing on the rankings in this article. 
 
 When obtaining a list with your API key, the url will look something like this:
+
 `my_url = "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=yourkey"`
 
 The two main features that we'll want to pay attention to in this url are the list data, or the information that comes after lists/ in the url. According to the website, "the lists/{date}/{name} service returns the books on the best sellers list for the specified date and list name." 
+
+#### {date}
+If you want the current NYT Bestsellers list, you just put "current" in the date section of the url. However, if you want the NYT Bestsellers list for a specific date, you put in the date in this format: YEAR-MONTH-DATE. For example, 2012-05-30 for May 30, 2012. 
+
+#### {name}
+The New York Times has lists for books in different formats (hardcover, paperback, and e-book) and genres (fiction and non-fiction). In order to get a list of a cetain format and genre, you would need to put in one of these values: hardcover-fiction, trade-fiction-paperback, e-book-fiction, hardcover-nonfiction, paperback-nonfiction, e-book-nonfiction.  
 
 
