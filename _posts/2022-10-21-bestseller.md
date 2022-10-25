@@ -67,3 +67,13 @@ As you can see, the dataframe does not immediately show us the information we wa
 If we look at the dataframe we just made, it should look like this:
 
 The dataframe is too big to see completely within jupyter notebooks, but if you want to look at titles that are on the Bestsellers list, you can simply say `your_dataframe['titles']`, and it will give you the list of titles on the list for that week. For example, for our list (Oct 21, 2022, hardcover, non-fiction), the list is:
+
+# Personalize Data
+The data I would like to gather is all the fiction bestseller lists for both hardcover and paperback books for the week of October 21 from the years 2012-2022. In order to do this I put in the date that I want (YEAR-10-21) and either 'hardcover-fiction' or 'trade-paperback-fiction'. Each separate list will contain only about 15-20 different titles, so I then put all these separate dataframes into a list, and then concatenate that list into a complete dataframe: `bestseller = pd.concat(frames)`
+
+The resulting dataframe "bestseller" looks like this:
+
+There are 365 rows and 26 separate columns. Later on, I might want to remove some of the columns that aren't necessary, but for now I am happy with my dataframe. 
+
+# Conclusion
+In this post, I showed how you can access a NYT API key, how you can use that key to get various NYT Books Bestsellers list, and how you can personalize the data you want within those Bestsellers lists. This information could be useful to see what books have been the most popular over time, what publishers are most likely to have books on the bestsellers list, and what books you might be interested in reading/buying/selling. Let me know in the comments if you have any questions regarding accessing information within these lists. In my next post, I will provide an exploratory data analysis of this data.
