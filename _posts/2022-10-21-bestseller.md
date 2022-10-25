@@ -34,6 +34,12 @@ The two main features that we'll want to pay attention to in this url are the li
 If you want the current NYT Bestsellers list, you just put "current" in the date section of the url. However, if you want the NYT Bestsellers list for a specific date, you put in the date in this format: YEAR-MONTH-DATE. For example, 2012-05-30 for May 30, 2012. 
 
 #### {name}
-The New York Times has lists for books in different formats (hardcover, paperback, and e-book) and genres (fiction and non-fiction). In order to get a list of a cetain format and genre, you would need to put in one of these values: hardcover-fiction, trade-fiction-paperback, e-book-fiction, hardcover-nonfiction, paperback-nonfiction, e-book-nonfiction.  
+The New York Times has lists for books in different formats (hardcover, paperback, and e-book) and genres (fiction and non-fiction). In order to get a list of a cetain format and genre, you would need to put in one of these values: 
+*hardcover-fiction
+*trade-fiction-paperback 
+*e-book-fiction 
+*hardcover-nonfiction 
+*paperback-nonfiction 
+*e-book-nonfiction  
 
 
