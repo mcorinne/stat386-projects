@@ -10,6 +10,12 @@ image: /assets/images/Books.jpeg
 # Introduction
 Working at a bookstore, it's important to know which books are going to sell. The New York Times Bestsellers list is one of the most authorative rankings of bookselling out there, and luckily you can customize your own book listing depending on what information you want to know. On its list, the New York Times provides how many weeks the book has been on its list, the publisher, and the author. This information is helpful to me to get an idea of what books are going to be more likely to sell, what publishers and authors I should buy from, etc. It could be helpful to you in knowing what books you want to read! Let's begin.
 
+This is what the NYT Bestsellers list looks like on their website. 
+
+![Test Image](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/NYT.png)
+
+Our goal is to get this information in our own dataframes, and personalize the lists for our own use. For me, this means getting the NYT Bestseller list for hardcover and paperback fiction for the month of October from the years 2012-2022.
+
 # Get Your API Key
 In order to get your NYT API key, you'll need to start a developer's account (good news, it's free!). You can do that now by following [this link](https://developer.nytimes.com/accounts/create). All you'll need is your first and last name, email, and a password that you create.
 
@@ -54,10 +60,14 @@ Use the code below to request the URL (insert your own API key into the URL).
 
 The `r.json()` should look something like this:
 
+![Test Image](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/json.png)
+
 ### Create Dataframe Using Pandas
 Make sure you have pandas imported, and then create a dataframe by saying `pf = pd.DataFrame(r.json())`
 
 The resulting dataframe will look something like this:
+
+![Test Image](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/ogpd.png)
 
 As you can see, the dataframe does not immediately show us the information we want (book rankings, publisher information, title of book). All of this information is instead stored inside the "results" section of the row "books." In order to access that information, we'll have to do a little manuevering.
 
@@ -66,12 +76,18 @@ As you can see, the dataframe does not immediately show us the information we wa
 
 If we look at the dataframe we just made, it should look like this:
 
+![Test Image](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/example_data.png)
+
 The dataframe is too big to see completely within jupyter notebooks, but if you want to look at titles that are on the Bestsellers list, you can simply say `your_dataframe['titles']`, and it will give you the list of titles on the list for that week. For example, for our list (Oct 21, 2022, hardcover, non-fiction), the list is:
+
+![Test Image](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/titles.png)
 
 # Personalize Data
 The data I would like to gather is all the fiction bestseller lists for both hardcover and paperback books for the week of October 21 from the years 2012-2022. In order to do this I put in the date that I want (YEAR-10-21) and either 'hardcover-fiction' or 'trade-paperback-fiction'. Each separate list will contain only about 15-20 different titles, so I then put all these separate dataframes into a list, and then concatenate that list into a complete dataframe: `bestseller = pd.concat(frames)`
 
 The resulting dataframe "bestseller" looks like this:
+
+![Test Image](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/bestsellers.png)
 
 There are 365 rows and 26 separate columns. Later on, I might want to remove some of the columns that aren't necessary, but for now I am happy with my dataframe. 
 
