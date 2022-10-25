@@ -35,11 +35,11 @@ If you want the current NYT Bestsellers list, you just put "current" in the date
 
 #### {name}
 The New York Times has lists for books in different formats (hardcover, paperback, and e-book) and genres (fiction and non-fiction). In order to get a list of a cetain format and genre, you would need to put in one of these values: 
-*hardcover-fiction
-*trade-fiction-paperback 
-*e-book-fiction 
-*hardcover-nonfiction 
-*paperback-nonfiction 
-*e-book-nonfiction  
+* hardcover-fiction
+* trade-fiction-paperback 
+* e-book-fiction 
+* hardcover-nonfiction 
+* paperback-nonfiction 
+* e-book-nonfiction  
 
 
