@@ -97,4 +97,4 @@ A quick note on if this way of obtaining data is ethical or not. In the NYT term
 # Conclusion
 In this post, I showed how you can access a NYT API key, how you can use that key to get various NYT Books Bestsellers list, and how you can personalize the data you want within those Bestsellers lists. This information could be useful to see what books have been the most popular over time, what publishers are most likely to have books on the bestsellers list, and what books you might be interested in reading/buying/selling. Let me know in the comments if you have any questions regarding accessing information within these lists. In my next post, I will provide an exploratory data analysis of this data.
 
-Here's a link to my github repo [link](https://github.com/mcorinne/NYT-Bestsellers.git)
+Here's a link to my github repo [link](https://github.com/mcorinne/NYTBestsellers.git)
