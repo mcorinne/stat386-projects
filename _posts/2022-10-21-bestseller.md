@@ -42,4 +42,28 @@ The New York Times has lists for books in different formats (hardcover, paperbac
 * paperback-nonfiction 
 * e-book-nonfiction  
 
+# Gather the Data of Interest
+Once you have decided which formats, genres, and dates you would like to gather data on, it's still a little tricky getting the data into the dataframe that you format that you want. But don't worry, we'll walk you throught the process! We'll be using our API and requests.
 
+### Request URL
+Use the code below to request the URL (insert your own API key into the URL).
+
+`my_url = "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=yourkey"`
+
+`r = requests.get(my_url)`
+
+The `r.json()` should look something like this:
+
+### Create Dataframe Using Pandas
+Make sure you have pandas imported, and then create a dataframe by saying `pf = pd.DataFrame(r.json())`
+
+The resulting dataframe will look something like this:
+
+As you can see, the dataframe does not immediately show us the information we want (book rankings, publisher information, title of book). All of this information is instead stored inside the "results" section of the row "books." In order to access that information, we'll have to do a little manuevering.
+
+1. Separate books from the rest of the dataframe with `books = pf.iloc[1]`
+2. Now, create a dataframe of the "results" row within books with `pd.DataFrame(books['results'])`
+
+If we look at the dataframe we just made, it should look like this:
+
+The dataframe is too big to see completely within jupyter notebooks, but if you want to look at titles that are on the Bestsellers list, you can simply say `your_dataframe['titles']`, and it will give you the list of titles on the list for that week. For example, for our list (Oct 21, 2022, hardcover, non-fiction), the list is:
