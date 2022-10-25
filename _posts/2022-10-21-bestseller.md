@@ -91,5 +91,8 @@ The resulting dataframe "bestseller" looks like this:
 
 There are 365 rows and 26 separate columns. Later on, I might want to remove some of the columns that aren't necessary, but for now I am happy with my dataframe. 
 
+# Is this ethical?
+A quick note on if this way of obtaining data is ethical or not. In the NYT terms and conditions found [here](https://developer.nytimes.com/terms), they say that API keys should not be used to any commercial use or in anything that is illegal. As I am not using the API key in anyway to get money, and I am not breaking the law, it is ethical to use the NYT API key to get this information.
+
 # Conclusion
 In this post, I showed how you can access a NYT API key, how you can use that key to get various NYT Books Bestsellers list, and how you can personalize the data you want within those Bestsellers lists. This information could be useful to see what books have been the most popular over time, what publishers are most likely to have books on the bestsellers list, and what books you might be interested in reading/buying/selling. Let me know in the comments if you have any questions regarding accessing information within these lists. In my next post, I will provide an exploratory data analysis of this data.
