@@ -32,12 +32,12 @@ But first, let's look at the top publishers that have books on the NYT's list. T
 ![Grand Central](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/GrandCentral.png)
 Because I hadn't heard very much about the publishing company Grand Central, I wanted to take a closer look at their data. Looking at the authors that have made it onto the NYT's list within this publishing company, it looks like the genres they publish the most are romance (Nicholas Sparks), thriller (David Baldacci, James Patterson), or a mix of both (Colleen Hoover). The books that have stayed on the NYT's list the longest under Grand Central are usually their romance; we can see that their top two books in terms of length on NYT best seller list are by Colleen Hoover and Nicholas Sparks. We can also see that Grand Central Publishing has a few authors that consistently make it on the NYT best sellers list: Nicholas Sparks, David Baldacci, and James Patterson (as a co-author). These authors are popular prolific authors, meaning that they will write a lot of books that people will buy simply because it has their name on the front cover. These authors would be great to have in a used bookstore.  
 
-### Popular Authors
+## Popular Authors
 ![Author](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/Author.png)
 
 ![Colleen Hoover](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/ColleenHoover.png)
 
-### Most Popular Books of the Decade
+## Most Popular Books of the Decade
 ![Top25](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/Top25Titles.png)
 
 
