@@ -12,6 +12,38 @@ I work at a used bookstore, and people bring us in new books for the store every
 
 ![Pioneer Book](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/pioneerbook.jpeg)
 
+![Boxplot](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/Boxplot.png)
+
+![Publisher](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/Publisher.png)
+
+![Grand Central](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/GrandCentral.png)
+
+![Author](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/Author.png)
+
+![Colleen Hoover](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/ColleenHoover.png)
+
+![Top25](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/Top25Titles.png)
+
+![Ranks](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/RanksDiff.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Get Your API Key
 In order to get your NYT API key, you'll need to start a developer's account (good news, it's free!). You can do that now by following [this link](https://developer.nytimes.com/accounts/create). All you'll need is your first and last name, email, and a password that you create.
 
