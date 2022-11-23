@@ -17,7 +17,7 @@ I work at a used bookstore, and people bring us in new books for the store every
 Let's start off with getting a basic grasp of the data we're working with. The NYT Best Seller list ranks 15-20 books each week (usually 15, but in the past it has occasionally been 20). A book is a NYT best seller if it ranks anywhere on the list, and the more consecutive weeks it's on the list, the more impressive it is. I wanted to start off my exploratory data analysis just looking at the typical range for number of weeks a book has been on the NYT best sellers list.
 
 ![Ranks](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/RanksDiff.png)
-This graph shows that if a book was on the NYT's best seller list the previous week, it is most likely that it was ranked higher the week before than it would be ranked during the current week. This makes sense because often a book is very popular the first few weeks it comes out, but then it's popularity decreases as time goes by.
+This graph shows that if a book was on the NYT's best seller list the previous week, it is most likely that it was ranked higher the week before than it would be ranked during the current week. This makes sense because often a book is very popular the first few weeks it comes out, but then its popularity decreases as time goes by.
 
 ![Boxplot](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/Boxplot.png)
 
