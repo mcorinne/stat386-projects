@@ -1,20 +1,14 @@
 ---
 layout: post
-title:  "Analyzing the New York Times' Bestsellers List"
+title:  "Analyzing the New York Times Best Sellers List"
 date:   2022-11-19 11:24:47 -0700
 author: Corinne McClelland
-description: Let's explore the NYT's most popular books of the past decade together!
+description: Let's explore the NYT's most popular fiction books of the past decade together!
 image: /assets/images/Bestsell.jpg
 ---
 
 # Introduction
-Working at a bookstore, it's important to know which books are going to sell. The New York Times Bestsellers list is one of the most authorative rankings of bookselling out there, and luckily you can customize your own book listing depending on what information you want to know. On its list, the New York Times provides how many weeks the book has been on its list, the publisher, and the author. This information is helpful to me to get an idea of what books are going to be more likely to sell, what publishers and authors I should buy from, etc. It could be helpful to you in knowing what books you want to read! Let's begin.
-
-This is what the NYT Bestsellers list looks like on their website. 
-
-![Test Image](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/NYT.png)
-
-Our goal is to get this information in our own dataframes, and personalize the lists for our own use. For me, this means getting the NYT Bestseller list for hardcover and paperback fiction for the month of October from the years 2012-2022.
+I work at a used bookstore, and people bring us in new books for the store everyday. Of course, not every book that someone brings in will sell, and the trick is only keeping the books you think someone would buy within a certain period of time (let's say a year). Otherwise, these books are just wasting shelf space. In this blogpost, I explore the NYT's Best Sellers List for hardcover and paperback fiction from the years 2012-2022. You can see how I gathered this data in my blogpost [here](https://mcorinne.github.io/stat386-projects/2022/10/21/bestseller.html). We'll explore which publishers and authors have been on the NYT Best Sellers List the most in the past decade, among other things. Hopefully, by the end of this blogpost I'll be able to use some of this information at my local bookstore. (Hint: I will) Let's get started!
 
 # Get Your API Key
 In order to get your NYT API key, you'll need to start a developer's account (good news, it's free!). You can do that now by following [this link](https://developer.nytimes.com/accounts/create). All you'll need is your first and last name, email, and a password that you create.
