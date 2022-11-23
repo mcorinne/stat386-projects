@@ -38,7 +38,9 @@ Because I hadn't heard very much about the publishing company Grand Central, I w
 Many of the top authors that appear on this graph we saw previously when looking at the authors published by Grand Central. However, there are some new authors that show up as well. For example, E.L. James is the third most popular author on this list, known for her "Fifty Shades of Grey" books. Other top authors include Stephen King, Liane Moriarty, and Jojo Moyes. All of these authors have written quite a few books, and so although each individual book might not have been the most popular, the sheer number of their books that get on the New York Times list is what makes these authors so massively popular. In my bookstore, it would be smart to display books by these authors, because they are highly likely to sell quickly because of their popularity. The author that has been on the NYT list the most within the past decade is the queen of booktok herself, Colleen Hoover. 
 
 ![Colleen Hoover](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/ColleenHoover.png)
-Taking a closer look at Colleen Hoover's books
+Taking a closer look at Colleen Hoover's books, we can see that although she was a big author for Grand Central, most of her books have actually been published by Atria. In addition, she has even had a self-published book make it on the New York Times list, which is a very impressive feat. This graph made me curious about which books have been published under the different publishers, so I decided to make a slightly different graph to take a closer look.
+
+
 
 ## Most Popular Books of the Decade
 ![Top25](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/Top25Titles.png)
