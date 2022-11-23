@@ -40,15 +40,16 @@ Many of the top authors that appear on this graph we saw previously when looking
 ![Colleen Hoover](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/ColleenHoover.png)
 Taking a closer look at Colleen Hoover's books, we can see that although she was a big author for Grand Central, most of her books have actually been published by Atria. In addition, she has even had a self-published book make it on the New York Times list, which is a very impressive feat. This graph made me curious about which books have been published under the different publishers, so I decided to make a slightly different graph to take a closer look.
 
+![Colleen Hoover](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/Colleen.png)
+Looking at both the publishers and their titles, we can see that only one of Colleen Hoover's books that made it on the NYT's best seller list was published under any other publisher than Atria. Her book "Verity," which she originally self-published, was then picked up by Grand Central and made it on the NYT's list for over a year. However, all of her other books have been published under Atria. Her most famous book, "It Ends With Us," has been on the NYT's list for over a year as well.
 
 
 ## Most Popular Books of the Decade
 ![Top25](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/Top25Titles.png)
-
-
+And now, we answer the long-awaited question: which books were the most popular books of the past decade? From the table above, we can see that the book that was the most popular, the same one that has been on the NYT's best seller list for over seven years, is "The Alchemist" by Paolo Coehlo. This book has been on the NYT's almost list 3x longer than the next most popular books. We see that although Colleen Hoover barely made it into the top 10, she has a number of books that made it into the top 30 most popular, which is why she is the most popular author on the NYT's list. Comfortingly, the books included in this list are are all books that we consistently display on our bestsellers shelf at my local bookstore, which means our bestsellers data coincides with the data from the New York Times. 
 
 
 # Conclusion
-In this post, I showed how you can access a NYT API key, how you can use that key to get various NYT Books Bestsellers list, and how you can personalize the data you want within those Bestsellers lists. This information could be useful to see what books have been the most popular over time, what publishers are most likely to have books on the bestsellers list, and what books you might be interested in reading/buying/selling. Let me know in the comments if you have any questions regarding accessing information within these lists. In my next post, I will provide an exploratory data analysis of this data.
+In this post, I performed an exploratory data analysis on data from the New York Times bestselling fiction list from the past decade. Through this data analyses I learned that the most popular publishers on this list were Grand Central; Putnam; Little, Brown and Company; Scriber; and Atria. The most popular authors were Colleen Hoover (who publishes through Grand Central and Atria), David Baldacci, E.L. James, Nicholas Sparks, and Stephen King. The most popular book was "The Alchemist" by Paolo Coehlo, followed by "The Handmaid's Tale," "Milk and Honey," "All the Light We Cannot See," and "Where the Crawddads Sing." This information was useful to me in learning what used books I should keep at my local used bookstore from the books that people bring to trade, and it could be useful to you to see what books you might be interested in reading/buying/selling. Let me know in the comments if you have read any of these books and what you thought of them! 
 
 Here's a link to my github repo [link](https://github.com/mcorinne/NYTBestsellers.git)
