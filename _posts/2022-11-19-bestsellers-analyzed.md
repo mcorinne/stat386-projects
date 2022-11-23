@@ -10,6 +10,8 @@ image: /assets/images/Bestsell.jpg
 # Introduction
 I work at a used bookstore, and people bring us in new books for the store everyday. Of course, not every book that someone brings in will sell, and the trick is only keeping the books you think someone would buy within a certain period of time (let's say a year). Otherwise, these books are just wasting shelf space. In this blogpost, I explore the NYT's Best Sellers List for hardcover and paperback fiction from the years 2012-2022. You can see how I gathered this data in my blogpost [here](https://mcorinne.github.io/stat386-projects/2022/10/21/bestseller.html). We'll explore which publishers and authors have been on the NYT Best Sellers List the most in the past decade, among other things. Hopefully, by the end of this blogpost I'll be able to use some of this information at my local bookstore. (Hint: I will) Let's get started!
 
+![Pioneer Book](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/pioneerbook.jpeg)
+
 # Get Your API Key
 In order to get your NYT API key, you'll need to start a developer's account (good news, it's free!). You can do that now by following [this link](https://developer.nytimes.com/accounts/create). All you'll need is your first and last name, email, and a password that you create.
 
