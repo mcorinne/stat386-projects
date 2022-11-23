@@ -12,7 +12,12 @@ I work at a used bookstore, and people bring us in new books for the store every
 
 ![Pioneer Book](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/pioneerbook.jpeg)
 
+# Exploratory Data Analysis
+Let's start off with getting a basic grasp of the data we're working with. The NYT Best Seller list ranks 15-20 books each week (usually 15, but in the past it has occasionally been 20). A book is a NYT best seller if it ranks anywhere on the list, and the more consecutive weeks it's on the list, the more impressive it is. I wanted to start off my exploratory data analysis just looking at the typical range for number of weeks a book has been on the NYT best sellers list.
+
 ![Boxplot](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/Boxplot.png)
+
+This boxplot shows that there is quite a huge range when comparing how many weeks books have been on NYT's list; in the past decade books have been on the list ranging anywhere from 0 weeks to 375. That means some books have been on the NYT's list for over 7 years! Obviously, looking at this boxplot, we can see that this is not the case for most books. Fifty percent of the books only stay on the list for a week or two. Almost all of the books only stay on the list for less than 40 weeks, and it is only the exceptional few that stay on the list for over a year (let alone seven). If you're curious about which books are the outliers, keep reading!
 
 ![Publisher](https://raw.githubusercontent.com/mcorinne/stat386-projects/main/assets/images/Publisher.png)
 
